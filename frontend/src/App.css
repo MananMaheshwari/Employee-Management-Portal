@@ -1,0 +1,80 @@
+*{
+    /* font-family: 'Times New Roman', serif; */
+    font-family: "Roboto", sans-serif;
+}
+html{
+    height: 100%
+}
+body{
+    padding-top: 50px;
+    height: 100%
+   
+}
+#root{
+    height: 100%
+}
+.loginform {
+    border: solid 1px black;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 8px;
+}
+.avatarimg {
+    display: block;
+    margin: auto;
+    width: 25%;
+}
+.my-fieldset {
+    border: 2px solid black
+}
+.login-legend{
+    margin: 20px;
+    width: 155px;
+}
+.dash-nav {
+    /* display: inline; */
+    /* float: left; */
+    z-index: 1;
+    width: 15%;
+    position: fixed;
+    height: 100vh;
+    background-color: #9CC6FF;
+    /* padding: 5px; */
+    justify-content: center;
+    padding-top: 30px;
+}
+.dash-display {
+    /* display: inline; */
+    /* float: left; */
+    overscroll-behavior: none;
+    margin-left: 15%;
+    height: 100%;
+    /* padding-top: 30px; */
+    overflow: auto;
+    /* margin-top: 50px; */
+}
+.left-div{
+    float: left;
+    width: 50%;
+}
+.right-div{
+    float: left;
+    width: 50%;
+}
+.carousel-control-prev, .carousel-control-next{
+    opacity: 0 !important;
+}
+.form-control{
+    margin: 2px;
+}
+.full-height{
+    height: 100%;
+}
+
+#tab-example-tab-tab1{
+    
+}
+
+.nav-tabs .nav-link.active{
+    /* background-color: mintcream; */
+}
